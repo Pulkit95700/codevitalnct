@@ -1,4 +1,5 @@
 import LogoImg from "../assets/logo.png";
+import Copyright from "./Copyright";
 const Footer = () => {
     return (
         <footer className="bg-white mt-32 ">
@@ -92,6 +93,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <Copyright />
         </footer>
     );
 };
